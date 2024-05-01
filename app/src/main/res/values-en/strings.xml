@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tp2</string>
+    <string name="Contraseña_input">Password</string>
+    <string name="ingreso_usuario">user</string>
+    <string name="ingreso_contraseña">Password</string>
+    <string name="ingreso_iniciosesion">Log in</string>
+    <string name="instituto_tecnologico_de_educacion_superior">Technological Institute of Higher Education</string>
+    <string name="ingreso_salir">Exit</string>
+    <string name="acerca_de">About the</string>
+    <string name="volver">Return</string>
+    <string name="desarrollador_de_software">Software Developer</string>
+    <string name="contacto">Contact</string>
+    <string name="enviar_correo">Send mail</string>
+    <string name="bienvenidos_ites">Welcome to ITES!\n\nWe invite you to be part of the technological institute of higher education (ITES), and that you can learn about our free academic offers at the tertiary level (higher non-university), with national validity and extensive job opportunities.\n\n¡Where your future awaits you!</string>
+</resources>

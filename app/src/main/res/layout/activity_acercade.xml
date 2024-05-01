@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3DA4DC"
+    tools:context="acercade">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="224dp"
+        android:layout_height="261dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="96dp"
+        android:rotation="0"
+        android:rotationY="0"
+        android:src="@drawable/lautaro"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="212dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="-30dp"
+        android:background="@drawable/esquina_redondeada"
+        android:text="  Lautaro Tomas Schab"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/contacto_btn"
+        android:layout_width="142dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/contacto"
+        android:textColor="@color/white"
+        android:backgroundTint="#6110D3"
+        app:layout_constraintBottom_toTopOf="@+id/enviar_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/enviar_btn"
+        android:layout_width="142dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="119dp"
+        android:text="@string/enviar_correo"
+        android:textColor="@color/white"
+        android:backgroundTint="#6110D3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contacto_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="101dp"
+        android:text="@string/desarrollador_de_software"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="#1143EF"
+        app:layout_constraintBottom_toTopOf="@+id/contacto_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/volver_btn"
+        android:layout_width="97dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/volver"
+        android:textColor="@color/white"
+        android:backgroundTint="#6110D3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

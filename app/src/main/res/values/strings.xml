@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">tp2</string>
+    <string name="Contraseña_input">Contraseña</string>
+    <string name="ingreso_usuario">Usuario</string>
+    <string name="ingreso_contraseña">Contraseña</string>
+    <string name="ingreso_iniciosesion">Iniciar Sesión</string>
+    <string name="instituto_tecnologico_de_educacion_superior">Instituto Tecnologico de Educacion Superior</string>
+    <string name="ingreso_salir">Salir</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="bienvenidos_ites">Bienvenidos a ITES!\n\nTe invitamos a ser parte del Instituto Tecnológico de Educación Superior (ITES), y que puedas conocer nuestras Ofertas Académicas Gratuitas de nivel terciario (superior no universitario), con validez nacional y amplia salida laboral.\n\n¡Donde tu Futuro te Espera!</string>
+    <string name="volver">volver</string>
+    <string name="desarrollador_de_software">Desarrollador de Software</string>
+    <string name="contacto">Contacto</string>
+    <string name="enviar_correo">Enviar correo</string>
+</resources>
